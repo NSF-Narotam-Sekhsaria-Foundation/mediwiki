@@ -1,0 +1,5 @@
+MediWiki data dictionary - https://docs.google.com/spreadsheets/d/13T9DSy9eZgQE635WxSyoznsBiiPkwRA38eSKJfhZXWs/edit#gid=735879209
+Zeplin - https://app.zeplin.io/project/5b686f7e197d027d1502fb1a
+ - User Name - nitin@langoor.com
+ - Password - langoor#456
+Designs - https://drive.google.com/drive/folders/1pe6Nb264mF6h94DpvTwxp5WJMrOzMEv1
