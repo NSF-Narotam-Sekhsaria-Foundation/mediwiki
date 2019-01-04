@@ -105,3 +105,7 @@ else {
 function goBack() {
     window.history.back();
 }
+
+if ($(window).width() < 768) {
+    $('.noMatch').matchHeight({ remove: true });
+}

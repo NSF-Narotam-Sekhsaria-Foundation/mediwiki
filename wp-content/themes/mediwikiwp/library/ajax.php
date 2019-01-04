@@ -130,6 +130,9 @@
         }
 
 
+        //echo '<pre>';
+       // print_r($display_filter_arr);
+        //echo '</pre>';
         $display_str = '';
         $page_query = new WP_Query( $page_args );
         $query = new WP_Query( $args );

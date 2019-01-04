@@ -135,7 +135,7 @@
                                             array_push( $selected_array, $selected_term->term_id );
                                         }
                                         ?>
-                                        <div class="col-md-3 col-sm-6 col-xs-12 col-5-width">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 col-5-width noMatch" data-mh="filters-group">
                                             <h4><?php echo $taxonomy->labels->name; ?></h4>
                                             <ul class="card">
                                                 <?php 
@@ -158,7 +158,7 @@
                                         <?php
                                     } else {
                                         ?>
-                                        <div class="col-md-3 col-sm-6 col-xs-12 col-5-width">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 col-5-width noMatch" data-mh="filters-group">
                                             <h4><?php echo $taxonomy->labels->name; ?></h4>
                                             <ul class="card">
                                                 <?php 
