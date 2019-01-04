@@ -1,0 +1,2 @@
+# mediwiki
+Mediwiki website
