@@ -2708,6 +2708,23 @@ button.search_button {
     margin-left: 10px;
 }
 
+button.download_button {
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #00a99b;
+    border: none;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
 ul#menu-main-menu {
     padding: 0px;
 }

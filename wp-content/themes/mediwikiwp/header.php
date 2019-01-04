@@ -54,7 +54,7 @@
 
 						<?php $logo = get_field('logo', 'option'); ?>
 
-						<?php if ($logo!=""): ?>
+						<?php if ($logo!=""): echo "Development";?>
 
                             <img src="<?php echo $logo ?>" class="img-responsive logo" alt="Logo">
 
@@ -75,7 +75,7 @@
 
                     <ul style="display: none; width: 100%" class="nav navbar-nav navbar-right nav nav-stacked mobile-menu-accordion panel-group" id="accordion1">			        
 
-                        <?php 
+                        <?php
                             if( have_rows('menu', 'option') ) {
                                 $i = 0;
                                 while( have_rows('menu', 'option') ) { 
@@ -84,7 +84,7 @@
                                     <li class="panel panel-default accordian_heading"> 
                                         <a><?php the_sub_field('main_menu_heading'); ?> <i data-toggle="collapse" data-parent="#accordion1" href="#<?php echo $i; ?>" class="fa fa-plus"></i></a>
                                         <ul id="<?php echo $i; ?>" class="collapse">
-                                            <?php 
+                                            <?php
                                                 if( have_rows('sub_menus', 'option') ) {
                                                     while( have_rows('sub_menus', 'option') ) { 
                                                         the_row();
