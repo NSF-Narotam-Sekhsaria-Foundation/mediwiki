@@ -48,7 +48,7 @@
 
                 <!-- Mobile View -->
 
-                <table class="table table-responsive mt-20 custom-table custom-verticle-middle mobile-view">
+                <table class="table table-responsive mt-40 custom-table custom-verticle-middle mobile-view">
                     <tbody>
                         <?php
                             if( have_rows('table_row_table_image_type_1') ) {

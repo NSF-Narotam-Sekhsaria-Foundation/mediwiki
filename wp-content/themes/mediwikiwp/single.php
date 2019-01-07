@@ -13,7 +13,7 @@
                     <h4>
                         <?php
                         if(function_exists('bcn_display')) {
-                            bcn_display(    );
+                            bcn_display();
                         }else{?>
                             <span onclick="goBack()"><?php echo $post_object->labels->name;?></span>
                       <?php  }
