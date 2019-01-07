@@ -35,6 +35,17 @@
             echo '<style>.navbar-fixed-top{top:32px !important;}</style>';
         }
         ?>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131761134-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-131761134-1');
+        </script>
+
     </head>
  
     <body>
