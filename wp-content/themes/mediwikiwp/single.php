@@ -11,9 +11,16 @@
                         $post_object = get_post_type_object( get_post_type() );
                     ?>                    
                     <h4>
-                        <span onclick="goBack()"><?php echo $post_object->labels->name; ?></span>
+                        <?php
+                        if(function_exists('bcn_display')) {
+                            bcn_display(    );
+                        }else{?>
+                            <span onclick="goBack()"><?php echo $post_object->labels->name;?></span>
+                      <?php  }
+                        ?>
+
                     </h4>
-                  
+
                 </div>
                 <h3 class="banner-heading"><?php the_title(); ?></h3>                                   
             </div> 
